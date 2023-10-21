@@ -61,7 +61,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!u want like this bot dm @jnaneshtn"
+USER_REPLY_TEXT = "<b>🛎Request Your movies here :- https://t.me/+Pg5xeggLye5lZDA1/n/n🚦OTT Movies HD :- https://t.me/+D7L-rX9lKA43MGRl<\b>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
