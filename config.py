@@ -61,8 +61,8 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "<b>🛎Request Your movies here  https://t.me/+Pg5xeggLye5lZDA1 
-                      🚦OTT Movies HD https://t.me/+D7L-rX9lKA43MGRl"
+USER_REPLY_TEXT = "🛎Request Your movies here  https://t.me/+Pg5xeggLye5lZDA1 
+                   🚦OTT Movies HD https://t.me/+D7L-rX9lKA43MGRl"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
