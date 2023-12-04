@@ -55,7 +55,7 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("Please wait...")
+        temp_msg = await message.reply("wait......🍿")
         try:
             messages = await get_messages(client, ids)
         except:
@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐠𝐫𝐨𝐮𝐩", url = f"https://t.me/+Pg5xeggLye5lZDA1"),
+                    InlineKeyboardButton("𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐠𝐫𝐨𝐮𝐩", url = f"https://t.me/+oQT1f1iF4fU4ZGVl"),
                     InlineKeyboardButton("Ott 𝐦𝐨𝐯𝐢𝐞  📡", url = f"https://t.me/+D7L-rX9lKA43MGRl")
                 ]
             ]
