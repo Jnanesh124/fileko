@@ -32,12 +32,12 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://jnanesh:jnanesh@cluster0.
 DB_NAME = os.environ.get("DATABASE_NAME", "filestorenk")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001654950491"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002127686518"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "𝑯𝒆𝒚 {first} 𝑰 𝒂𝒎 𝒇𝒊𝒍𝒆 𝒔𝒕𝒐𝒓𝒆 𝒃𝒐𝒕 𝒏𝒐𝒕 𝒂𝒏𝒐𝒕𝒉𝒆𝒓 𝒃𝒐𝒕 𝑰 𝒄𝒂𝒏 𝒔𝒕𝒐𝒓𝒆 𝒖𝒓 𝒇𝒊𝒍𝒆 𝒂𝒏𝒅 𝑰 𝒘𝒊𝒍𝒍 𝒈𝒊𝒗𝒆 𝒚𝒐𝒖 𝒔𝒉𝒂𝒓𝒆𝒂𝒃𝒍𝒆 𝒍𝒊𝒏𝒌 𝒖 𝒄𝒂𝒏 𝒖𝒔𝒆 𝒕𝒉𝒂𝒕 𝒍𝒊𝒏𝒌 𝒕𝒐 𝒈𝒆𝒕 𝒖𝒓 𝒇𝒊𝒍𝒆𝒔 𝒂𝒏𝒚 𝒕𝒊𝒎𝒆 𝒖 𝒂𝒍𝒔𝒐 𝒔𝒉𝒂𝒓𝒕 𝒕𝒉𝒂𝒕 𝒍𝒊𝒏𝒌")
+START_MSG = os.environ.get("START_MESSAGE", "MovieRequestGroup :- https://t.me/+5TJUbOMCqD05ZmQ1 onlineStreamingmovies:- https://t.me/+oQT1f1iF4fU4ZGVl OTT released Movies :- https://t.me/+D7L-rX9lKA43MGRl Adult Video :- https://t.me/+Ce98xoyvoLcwYThl")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "1384893863").split()):
@@ -61,7 +61,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "🛎Request Your movies here  https://t.me/+Pg5xeggLye5lZDA1" 
+USER_REPLY_TEXT = "🍿Request Your movies here  https://t.me/+5TJUbOMCqD05ZmQ1" 
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
